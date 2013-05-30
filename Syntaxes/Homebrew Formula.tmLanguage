@@ -25,7 +25,7 @@
     -   Nothing. Do you have an idea? Let me know!
 
     Author:  Samuel John (www.SamuelJohn.de)
-    License: Public Domain. I don't cade. Have fun.
+    License: Public Domain. I don't care. Have fun.
     </string>
     <key>fileTypes</key>
     <array>
@@ -34,41 +34,9 @@
     <key>firstLineMatch</key>
     <string>^(#.*\n)*require ['"]formula['""].*$</string>
     <key>foldingStartMarker</key>
-    <string>(?x)^
-        (\s*+
-            (module|class|def(?!.*\bend\s*$)
-            |unless|if
-            |case
-            |begin
-            |for|while|until
-             |^=begin
-            |(  "(\\.|[^"])*+"          # eat a double quoted string
-             | '(\\.|[^'])*+'        # eat a single quoted string
-             |   [^#"']                # eat all but comments and strings
-             )*
-             (                        \s   (do|begin|case)
-             | (?&lt;!\$)[-+=&amp;|*/~%^&lt;&gt;~] \s*+ (if|unless)
-             )
-            )\b
-            (?! [^;]*+ ; .*? \bend\b )
-        |(  "(\\.|[^"])*+"              # eat a double quoted string
-         | '(\\.|[^'])*+'            # eat a single quoted string
-         |   [^#"']                    # eat all but comments and strings
-         )*
-         ( \{ (?!  [^}]*+ \} )
-         | \[ (?! [^\]]*+ \] )
-         )
-        ).*$
-    |   [#] .*? \(fold\) \s*+ $         # Sune’s special marker
-    </string>
-    <key>foldingStopMarker</key>
-    <string>(?x)
-        (   (^|;) \s*+ end   \s*+ ([#].*)? $
-        |   (^|;) \s*+ end \. .* $
-        |   ^     \s*+ [}\]] ,? \s*+ ([#].*)? $
-        |   [#] .*? \(end\) \s*+ $    # Sune’s special marker
-        |   ^=end
-        )</string>
+    <string>(?x)^__END__$</string>
+    <key>foldingEndMarker</key>
+    <string>(?x).*</string>
     <key>name</key>
     <string>Homebrew Formula (Ruby file with optional patch after __END__)</string>
     <key>patterns</key>
@@ -104,6 +72,6 @@
     <key>scopeName</key>
     <string>source.ruby.homebrew</string>
     <key>uuid</key>
-    <string>8EBER374-AB74-0815-BEEF-1244461A3666</string>
+    <string>8EBEA374-AB74-0815-BEEF-1244461A3666</string>
 </dict>
 </plist>

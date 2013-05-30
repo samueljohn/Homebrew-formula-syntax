@@ -12,7 +12,9 @@ and the __END__ as a keyword.
 Ruby (.rb) files beginning with `require 'formula'` are automatically
 detected.
 
-This tmLanguange here is simple enough, I wrote it directly in xml.
+This tmLanguange here is simple enough - I wrote it directly in xml.
+
+![Screenshot](./screenshot.png)
 
 ### Note
 -   Updates to either source.ruby or source.diff are automatically
