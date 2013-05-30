@@ -28,4 +28,4 @@ This tmLanguange here is simple enough, I wrote it directly in xml.
     https://github.com/samueljohn/Homebrew-formula-syntax
     
 ### License:
-Public Domain. I don't cade. Have fun.
+Public Domain. I don't care. Have fun.
