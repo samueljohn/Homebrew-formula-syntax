@@ -33,10 +33,6 @@
     </array>
     <key>firstLineMatch</key>
     <string>^(#.*\n)*require ['"]formula['""].*$</string>
-    <key>foldingStartMarker</key>
-    <string>(?x)^__END__$</string>
-    <key>foldingEndMarker</key>
-    <string>(?x).*</string>
     <key>name</key>
     <string>Homebrew Formula (Ruby file with optional patch after __END__)</string>
     <key>patterns</key>
