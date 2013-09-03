@@ -1,7 +1,7 @@
 Homebrew-formula-syntax
 =======================
 
-Sublime Text 2 Syntax for Homebrew formulae (supporting the embedded diff)
+Sublime Text 2 and 3 Syntax for Homebrew formulae (supporting the embedded diff)
 
 Homebrew (http://brew.sh) formulae support inlined diffs after an
 __END__ keyword. Now, this Syntax desccription you see here, named
@@ -28,6 +28,6 @@ This tmLanguange here is simple enough - I wrote it directly in xml.
 ### Author
 -   Samuel John (www.SamuelJohn.de)
     https://github.com/samueljohn/Homebrew-formula-syntax
-    
+
 ### License:
 Public Domain. I don't care. Have fun.
