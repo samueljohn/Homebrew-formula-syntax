@@ -34,7 +34,7 @@
     <key>firstLineMatch</key>
     <string>^(#.*\n)*require ['"]formula['""].*$</string>
     <key>name</key>
-    <string>Homebrew Formula (Ruby file with optional patch after __END__)</string>
+    <string>Homebrew Formula (Ruby file)</string>
     <key>patterns</key>
     <array>
         <dict>
