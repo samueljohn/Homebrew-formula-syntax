@@ -4,7 +4,7 @@ Homebrew-formula-syntax
 Sublime Text 2 and 3 Syntax for Homebrew formulae (supporting the embedded diff)
 
 Homebrew (http://brew.sh) formulae support inlined diffs after an
-__END__ keyword. Now, this Syntax desccription you see here, named
+`__END__` keyword. Now, this Syntax desccription you see here, named
 "Homebrew Formula.tmLanguage", merges `source.ruby` with `source.diff` and
 if you have a [decent color theme](https://github.com/samueljohn/decent) that knows how to highlight diffs, it will make Homebrew formulae more beautiful.
 
